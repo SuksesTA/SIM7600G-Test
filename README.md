@@ -1,5 +1,3 @@
-[![PlatformIO CI](https://github.com/RSA-Care/IoT_SIM7600/actions/workflows/build.yaml/badge.svg)](https://github.com/RSA-Care/IoT_SIM7600/actions/workflows/build.yaml)
-
 # GPS Tracker with SIM7600G and MQTT
 
 This project demonstrates a GPS tracker using the SIM7600G module and MQTT for data transmission.
@@ -47,12 +45,14 @@ This project demonstrates a GPS tracker using the SIM7600G module and MQTT for d
 - **SIM7600G_code.cpp:** Implementation file for the SIM7600G module.
 - **OLED/SSD1306.h:** Header file for the OLED display.
 - **DHT/DHT22.h:** Header file for the DHT22 sensor.
+- **MPU6050_code.cpp:** Implementation file for the MPU6050 module.
+- **MPU6050.h:** Header file for the MPU6050 sensor
 - **Data/DataHandler.h:** Header file for data handling functions.
 
 ## Customization
 
 - **MQTT Topic:** Modify the `topic` variable in `SIM7600G_code.cpp` to change the MQTT topic for data publication.
-- **Display:** Customize the OLED display content by modifying the `gpsDisplay()` and `dhtDisplay()` functions in `main.cpp`.
+- **Display:** Customize the OLED display content by modifying the `gpsDisplay()`,`dhtDisplay()` and `mpudisplay()` functions in `main.cpp`.
 
 ## Notes
 
