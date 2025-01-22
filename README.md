@@ -8,6 +8,7 @@ This project demonstrates a GPS tracker using the SIM7600G module and MQTT for d
 
 - **GPS Tracking:** Retrieves GPS coordinates using the SIM7600G module.
 - **DHT22 Sensor:** Reads temperature and humidity data from a DHT22 sensor.
+- **MPU6050 Sensor:** Reads Gyroscope and Accelerometer data from a MPU6050 sensor.
 - **MQTT Communication:** Publishes GPS and sensor data to an MQTT broker.
 - **OLED Display:** Displays GPS coordinates and sensor readings on an OLED screen.
 - **Data Logging:** Saves GPS coordinates to a file for offline access.
@@ -17,6 +18,7 @@ This project demonstrates a GPS tracker using the SIM7600G module and MQTT for d
 - ESP32 board (e.g., ESP32-devkit-c)
 - SIM7600G GSM/GPRS/GNSS module
 - DHT22 temperature and humidity sensor
+- MPU6050 gyroscope and accelerometer sensor
 - OLED display (SSD1306)
 
 ## Software Requirements
